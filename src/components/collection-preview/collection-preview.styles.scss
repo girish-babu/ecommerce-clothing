@@ -1,0 +1,21 @@
+.collection-preview {
+  display: flex;
+  flex-direction: column;
+  background-color: #2e3737;
+  margin: 40px;
+  border-radius: 15px;
+
+  .title {
+    font-size: 28px;
+    margin-bottom: 25px;
+    text-align: center;
+    color: whitesmoke;
+    opacity: 0.6;
+  }
+
+  .preview {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
