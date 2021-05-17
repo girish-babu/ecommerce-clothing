@@ -1,6 +1,9 @@
 .sign-in-and-sign-up {
-  margin-left: 40px;
-  margin-right: 40px;
+  width: 1000px;
+  margin: 40px auto;
   font-family: "Open Sans Condensed";
   color: whitesmoke;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
