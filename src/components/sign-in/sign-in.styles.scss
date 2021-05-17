@@ -1,10 +1,28 @@
 .sign-in {
-  width: 30vw;
+  width: 450px;
   display: flex;
   flex-direction: column;
   margin: 10px 0;
+  background-color: #2e3737;
+  border-radius: 15px;
 
   .title {
     margin: 10px 0;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .detail {
+    padding: 10px;
+    text-align: center;
+  }
+
+  .sign-in-form {
+    padding: 10px;
+
+    .buttons {
+      display: flex;
+      justify-content: space-between;
+    }
   }
 }
